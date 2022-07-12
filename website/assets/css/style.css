@@ -1,3 +1,72 @@
 body{
     background: #BDBDBD;
 }
+
+.container{   
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    height: 600px;
+    padding-top: 45px;
+}
+
+.container.portfolio-container {
+    background-image: none;
+}
+.container2{
+    background-image: url (".../img/bg.jpg");
+    background-size: cover;
+    height:400px;
+    padding-right:60px; 
+
+}
+
+.display-4{
+    margin:15px 0px 15px 0px;
+    width: auto;
+    background-color: white;
+    font-weight:bold ;
+    justify-items: center;
+    text-align: center;
+    font-size:100px;
+}
+    
+.lead{
+    margin:15px 0px 15px 0px;
+    width: auto;
+    background-color: white;
+    font-weight:bold ;
+    justify-items: center;
+    text-align: center;
+    font-size: 45px; 
+}
+
+.card {
+    border: none !important;
+}
+
+.card img {
+    height: 13rem;
+    object-fit: cover;
+    object-position: center center;
+}
+
+body {background-color: white;}
+
+/*Contact Section*/
+
+.contact-container {
+    padding: 50px;
+    margin-top: 50px;
+    text-align: start;
+}
+
+.emailbox {
+    background: rgb(247, 244, 244);
+    padding: 10px 30px; 
+    width: 50%;
+    margin: auto;
+}
+
+.button-right {
+    text-align: right;
+}
